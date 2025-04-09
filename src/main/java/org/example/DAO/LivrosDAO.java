@@ -39,6 +39,12 @@ public class LivrosDAO {
     }
 
 
+
+
+
+
+
+
     public void update(LivrosModel livro){
         String sql = "UPDATE livros SET nome= ?, valor= ?, posicao= ?, autor=? WHERE codigo = ? ";
 
